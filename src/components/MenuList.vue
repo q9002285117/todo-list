@@ -6,7 +6,7 @@
             <div class="item">{{index+1}}.{{item.name}}</div>
         </div>
         
-        <div>
+        <div class="button">
             <button class="addBtn">Add Item</button>
         </div>
     </div>
@@ -36,7 +36,7 @@ export default {
 <style lang="scss" scoped>
 .menu {
     background: #A1FFC7;
-    width: 200px;
+    width: 15%;
     height: 100vh;
     .title {
         padding: 10px;
@@ -50,6 +50,11 @@ export default {
     display: flex;
     align-items: center;
     font-family: sans-serif;
+}
+.button{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
 }
 .addBtn{
     background: #E7FFE9;
