@@ -38,9 +38,11 @@ export default {
     background: #A1FFC7;
     width: 15%;
     height: 100vh;
+    float: left;
     .title {
-        padding: 10px;
+        padding: 20px;
         font-family: sans-serif;
+        font-weight: bold;
     }
 }
 .item {
